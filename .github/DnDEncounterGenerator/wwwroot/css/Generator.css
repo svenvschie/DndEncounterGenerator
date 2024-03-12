@@ -1,0 +1,46 @@
+﻿.highlight {
+    outline: 3px solid #2596be;
+}
+
+.Generate {
+    background-color: #2596be;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-weight: bold;
+    border-radius: 10px; /* Add round borders */
+}
+
+.Generate:hover {
+    background-color: #1381b6;
+}
+
+.List {
+    margin: auto;
+    width: 50%;
+}
+
+.creature {
+    background-color: #F0F0F0;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inline {
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+
+

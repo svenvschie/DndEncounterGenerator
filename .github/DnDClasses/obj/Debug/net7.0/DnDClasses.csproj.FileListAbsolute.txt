@@ -1,0 +1,12 @@
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\bin\Debug\net7.0\DnDClasses.deps.json
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\bin\Debug\net7.0\DnDClasses.dll
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\bin\Debug\net7.0\DnDClasses.pdb
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.AssemblyInfoInputs.cache
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.AssemblyInfo.cs
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.csproj.CoreCompileInputs.cache
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.dll
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\refint\DnDClasses.dll
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.pdb
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\ref\DnDClasses.dll
+C:\dev\s2-g01-sven-vanschie\Persoonlijk project\DnDEncounterGenerator\DnDClasses\obj\Debug\net7.0\DnDClasses.csproj.AssemblyReference.cache

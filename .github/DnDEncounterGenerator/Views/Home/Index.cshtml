@@ -1,0 +1,64 @@
+﻿@using DnDClasses
+@using System.Collections.Specialized
+@model User
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/Generator.css" asp-append-version="true" />
+<script src="~/js/Generator.js" asp-append-version="true"></script>
+
+<div class="text-center">
+
+    <form asp-controller="Home" asp-action="GenerateCreatures" method="post">
+        <div class="form-group">
+            <button class="Generate" type="submit">Generate Creatures</button>
+            <div class="form-inline">
+                <p class="label">Max amount:</p>
+                <select class="select" name="maxAmount">
+                    @for (int i = 0; i <= 50; i++)
+                    {
+                        if (i == 5)
+                        {
+                            <option value="@i" selected>@i Creatures</option>
+                        }
+                        else
+                        {
+                            <option value="@i">@i Creatures</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <button id="nextButton" onclick="selectNextItemInList()" class="Generate">Next</button>
+
+    <p style="font-weight: bold">Initiative - Type/Name - Health</p>
+    <div class="List">
+        @foreach (Entity entity in Model.Encounter.Entities)
+        {
+            if (entity is Player)
+            {
+                <p class="player">@entity.Initiative - @entity.Identity - @entity.Health</p>
+            }
+            else if (entity is Creature)
+            {
+                <p class="creature">@entity.Initiative - @entity.Identity - @entity.Health</p>
+            }
+        }
+    </div>
+
+    <div>
+        <form asp-controller="Home" asp-action="AddPlayer" method="post">
+            <input asp-for="@Model.Player.Initiative" autocomplete="off" placeholder="Initiative" required type="number" />
+            <input asp-for="@Model.Player.Identity" autocomplete="off" placeholder="Name" required type="text" />
+            <input asp-for="@Model.Player.Health" autocomplete="off" placeholder="Health" required type="number" />
+            <button type="submit">Add Player</button>
+        </form>
+    </div>
+</div>
+
+
+
